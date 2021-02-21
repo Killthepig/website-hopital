@@ -9,7 +9,9 @@
     text-decoration: none;
 }
 
-
+.go_up{
+    position: relative;
+}
 :root{
     scroll-behavior: smooth;
 }
