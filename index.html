@@ -12,8 +12,8 @@
 
 	</head>
 
-	<body>
-		<div class="cover border">	
+	<body class="cover" style="padding: 10px; scroll-behavior: smooth;">
+		<div>	
 			<!-- bannière principale -->
 			<div>
 
@@ -29,12 +29,12 @@
 
 								<ul class="nav__links">
 									<li><a class="textd" href="#">Accueil</a></li>
+									<li><a class="textd" href="#services">Services</a></li>
 									<li><a class="textd" href="#about">A Propos</a></li>
-									<li><a class="textd" href="#">Services</a></li>
 									<li><a class="textd" href="#application">Télécharger l'appli</a></li>
 									<li><a class="textd" href="#appointment">Réserver en ligne</a></li>
-									<li><a class="textd" href="#">Equipe</a></li>
-									<li><a class="textd" href="#"><button>contact</button></a></li>
+									<li><a class="textd" href="#doctors">Equipe</a></li>
+									<li><a class="textd" href="#contact"><button>contact</button></a></li>
 
 								</ul>
 
@@ -67,38 +67,19 @@
 			<section id="infos">
 				<div>
 					<div>
-						<div class="font2 go_up" style="display: flex; justify-content: space-around; top: -200px;">
-							<div>
-								<span class="fa fa-phone"></span>
-							</div>
+						<div class="font2" style="display: flex; justify-content: space-evenly;">
 							<div>
 								<h3>Appelez-nous</h3>
 								<p>+331 20 20 20 20</p>
 							</div>
-						</div>
-					</div>
-					<div class="font2 go_up" style="display: flex; top: -50px; justify-content: space-evenly;">
-						<div>
 							<div>
-								<div>
-									<span class="fa fa-clock-o"></span>
-								</div>
-								<div >
-									<h3>Horaires</h3>
-									<p>Lundi-Vendredi : 8h-22h</p>
-									<p>Week-end : 7h-23h</p>
-								</div>
+								<h3>Horaires</h3>
+								<p>Lundi-Vendredi : 8h-22h</p>
+								<p>Week-end : 7h-23h</p>
 							</div>
-						</div>
-						<div>
 							<div>
-								<div>
-									<span class="fa fa-pencil-square-o"></span>
-								</div>
-								<div>
-									<h3>Rendez-vous</h3>
-									<p>Prendre rendez-vous en ligne</p>
-								</div>
+								<h3>Rendez-vous</h3>
+								<p>Prendre rendez-vous en ligne</p>
 							</div>
 						</div>
 					</div>
@@ -248,17 +229,17 @@
 			<!-- Médecins -->
 
 			<!-- Articles de blog -->
-			<section id="news" class="font2">
+			<section id="news" class="font2 cover" style="padding: 10px;">
 				<div>
 					<h3>Nouveautés</h3>
 					<h6>Blog Post</h6>
 				</div>
-				<div>
+				<div style="display: flex; justify-content: space-between;">
 					<!-- article 1 -->
 					<div>
 						<div>
 							<a href="#">
-								<img src="images/blog2.jpg" alt="image">
+								<img width="300" src="images/blog2.jpg" alt="image">
 							</a>
 						</div>
 						<div>
@@ -271,7 +252,7 @@
 					<div>
 						<div>
 							<a href="#">
-								<img src="images/blog1.jpg" alt="image">
+								<img width="300" src="images/blog1.jpg" alt="image">
 							</a>
 						</div>
 						<div>
@@ -284,7 +265,7 @@
 					<div>
 						<div>
 							<a href="#">
-								<img src="images/blog3.png" alt="image">
+								<img width="300" src="images/blog3.png" alt="image">
 							</a>
 						</div>
 						<div>
@@ -298,7 +279,7 @@
 			<!-- //Articles -->
 
 			<!-- Contact -->
-			<section id="contact" class="font2">
+			<section id="contact" class="font2 cover" style="padding: 10px;">
 				<div>
 					<h6>Une question ? un conseil ?</h6>
 					<h3>Contactez-nous</h3>
@@ -315,7 +296,7 @@
 			<!-- //Contact -->
 
 			<!-- Chiffres et témoignages -->
-			<section id="facts" class="font2">
+			<section id="facts" class="font2 cover" style="padding: 10px;">
 				<!-- chiffres -->
 				<div>
 					<h3>Gravizen en quelques chiffres</h3>
@@ -349,7 +330,7 @@
 			<!-- //chiffres -->
 
 			<!-- pied de page -->
-			<footer>
+			<footer id="contact" class="font2 cover" style="padding: 20px;">
 				<div>
 					<h2>
 						<a href="index.html">
@@ -411,12 +392,15 @@
 			<!-- //Pied de page -->
 
 			<!-- Copyright -->
-			<p> © 2021 Gravizen. Tout droit réservés | Par Pseudo </p>
+			<p> © 2021 Gravizen. Tout droit réservés | Par KillThePig </p>
 			
 			<a href="#home">
 				<span aria-hidden="true"></span>
 			</a>
 		</div>
+		
+		<script style="scroll-behavior: auto;" src="app.js"></script>
+
 	</body>
 
 </html>

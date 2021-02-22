@@ -12,9 +12,6 @@
 .go_up{
     position: relative;
 }
-:root{
-    scroll-behavior: smooth;
-}
 
 .border{
     border: #4D4D4D solid 5px;
